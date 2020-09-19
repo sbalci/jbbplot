@@ -1,0 +1,11 @@
+---
+name:  line
+title: Line Chart
+jrs:   '1.1'
+
+items:
+    - name:  text
+      title: Line Chart
+      type:  Preformatted
+
+...

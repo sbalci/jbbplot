@@ -1,11 +1,11 @@
-Package: jamoviTemplate
+Package: jbbplot
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Wrapper Functions BBC/BBPLOT as a Module in JAMOVI
 Version: 0.0.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: wrapper functions to use [bbc/bbplot](https://github.com/bbc/bbplot)
+    functions as a module in [jamovi](https://www.jamovi.org)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -19,5 +19,14 @@ Suggests:
     dplyr,
     tidyr,
     ggplot2,
-    tibble
+    gapminder,
+    ggalt,
+    forcats,
+    R.utils,
+    png,
+    grid,
+    ggpubr,
+    scales
+Remotes:
+    bbc/bbplot
 RoxygenNote: 7.1.1

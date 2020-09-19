@@ -12,47 +12,36 @@ description: >-
   More about what it does (maybe more than one line) Use four spaces when
   indenting paragraphs within the Description.
 analyses:
-  - title: New Function
-    name: neofun
+  - title: Line Chart
+    name: line
     ns: jamoviTemplate
-    menuGroup: jamoviTemplate
-    menuTitle: New Function
-  - title: Age Pyramid
-    name: agepyramid
+    menuGroup: jbbplot
+    menuTitle: Line Chart
+  - title: Interrater Reliability
+    name: agreement
     ns: jamoviTemplate
-    menuGroup: Exploration
-    menuSubgroup: ClinicoPath Descriptive Plots
-    menuTitle: Age Pyramid
-  - title: Example 0
-    name: Example00
+    menuGroup: meddecide
+    menuSubgroup: Agreement
+    menuTitle: Interrater Reliability
+    description: Function for Interrater Reliability.
+  - title: Medical Decision
+    name: decision
     ns: jamoviTemplate
-    menuGroup: jamoviTemplate
-    menuTitle: Example 0
-  - title: Example 1
-    name: Example01
+    menuGroup: meddecide
+    menuSubgroup: Decision
+    menuTitle: Medical Decision
+    menuSubtitle: 'Sensitivity, Specificity, PPV, NPV, ...'
+    description: >
+      Function for Medical Decision Analysis. Sensitivity, specificity, positive
+      predictive value, negative predictive value.
+  - title: Medical Decision Calculator
+    name: decisioncalculator
     ns: jamoviTemplate
-    menuGroup: jamoviTemplate
-    menuTitle: Example 1
-  - title: Example 2
-    name: Example02
-    ns: jamoviTemplate
-    menuGroup: jamoviTemplate
-    menuTitle: Example 2
-  - title: Example 3
-    name: Example03
-    ns: jamoviTemplate
-    menuGroup: jamoviTemplate
-    menuTitle: Example 3
-  - title: Example 4
-    name: Example04
-    ns: jamoviTemplate
-    menuGroup: jamoviTemplate
-    menuTitle: Example 4
-  - title: Example 5
-    name: Example05
-    ns: jamoviTemplate
-    menuGroup: jamoviTemplate
-    menuTitle: Example 5
+    menuGroup: meddecide
+    menuSubgroup: Decision
+    menuTitle: Medical Decision Calculator
+    menuSubtitle: 'Sensitivity, Specificity, PPV, NPV, ...'
+    description: Function for Medical Decision Calculator.
 usesNative: true
 minApp: 1.0.8
 
