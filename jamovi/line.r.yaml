@@ -8,4 +8,9 @@ items:
       title: Line Chart
       type:  Preformatted
 
+
+refs:
+    - bbccookbook
+    - bbplot
+
 ...

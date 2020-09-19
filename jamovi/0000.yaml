@@ -17,31 +17,6 @@ analyses:
     ns: jamoviTemplate
     menuGroup: jbbplot
     menuTitle: Line Chart
-  - title: Interrater Reliability
-    name: agreement
-    ns: jamoviTemplate
-    menuGroup: meddecide
-    menuSubgroup: Agreement
-    menuTitle: Interrater Reliability
-    description: Function for Interrater Reliability.
-  - title: Medical Decision
-    name: decision
-    ns: jamoviTemplate
-    menuGroup: meddecide
-    menuSubgroup: Decision
-    menuTitle: Medical Decision
-    menuSubtitle: 'Sensitivity, Specificity, PPV, NPV, ...'
-    description: >
-      Function for Medical Decision Analysis. Sensitivity, specificity, positive
-      predictive value, negative predictive value.
-  - title: Medical Decision Calculator
-    name: decisioncalculator
-    ns: jamoviTemplate
-    menuGroup: meddecide
-    menuSubgroup: Decision
-    menuTitle: Medical Decision Calculator
-    menuSubtitle: 'Sensitivity, Specificity, PPV, NPV, ...'
-    description: Function for Medical Decision Calculator.
 usesNative: true
 minApp: 1.0.8
 

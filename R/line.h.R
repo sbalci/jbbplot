@@ -63,7 +63,10 @@ lineResults <- if (requireNamespace('jmvcore')) R6::R6Class(
             super$initialize(
                 options=options,
                 name="",
-                title="Line Chart")
+                title="Line Chart",
+                refs=list(
+                    "bbccookbook",
+                    "bbplot"))
             self$add(jmvcore::Preformatted$new(
                 options=options,
                 name="text",
