@@ -1,6 +1,6 @@
 ---
-title: What the Package Does (Title Case)
-name: jamoviTemplate
+title: Wrapper Functions BBC/BBPLOT as a Module in JAMOVI
+name: jbbplot
 version: 0.0.0
 jms: '1.0'
 authors:
@@ -9,12 +9,12 @@ maintainer: The package maintainer <yourself@somewhere.net>
 date: '1970-01-01'
 type: R
 description: >-
-  More about what it does (maybe more than one line) Use four spaces when
-  indenting paragraphs within the Description.
+  wrapper functions to use [bbc/bbplot](https://github.com/bbc/bbplot) functions
+  as a module in [jamovi](https://www.jamovi.org).
 analyses:
   - title: Line Chart
     name: line
-    ns: jamoviTemplate
+    ns: jbbplot
     menuGroup: jbbplot
     menuTitle: Line Chart
 usesNative: true

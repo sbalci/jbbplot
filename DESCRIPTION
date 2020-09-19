@@ -5,7 +5,7 @@ Version: 0.0.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: wrapper functions to use [bbc/bbplot](https://github.com/bbc/bbplot)
-    functions as a module in [jamovi](https://www.jamovi.org)
+    functions as a module in [jamovi](https://www.jamovi.org).
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
