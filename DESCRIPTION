@@ -2,6 +2,7 @@ Package: jbbplot
 Type: Package
 Title: Wrapper Functions BBC/BBPLOT as a Module in JAMOVI
 Version: 0.0.0
+Date: 2022-09-20
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: wrapper functions to use [bbc/bbplot](https://github.com/bbc/bbplot)
